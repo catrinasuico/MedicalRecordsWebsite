@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CLOUD-BASED ENCRYPTED CARD FOR HEALTH RECORDS</title>
+            <html style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="ss.css">
+             <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="images/logo.png" width="60" height="60">
+        <span class="logo_name">PUP Medical Services</span>
+      </div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="Homee.html">Home</a></li>
+        <li>
+          <a href="Appointments.html" class="desktop-item">Appointments</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Appointments</label>
+          <ul class="drop-menu">
+            <li><a href="#">Medical</a></li>
+            <li><a href="#">Dental</a></li>
+            <li><a href="requestAppointments.html">Requests</a></li>
+          </ul>
+        </li>
+        <li><a href="addPatient.html">Add Patient</a></li>
+          <li><a href="EditProfile.html" class="active">My Profile</a></li>
+        <li>
+            <a href="log_out">
+                <i class='bx bx-log-out' ></i>
+                <span class="links_name">Log out</span>
+            </a>
+        </li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+  <div class="body-text">
+  </div>
+ 
+  <div class = "bg">
+    <div class="container-4">
+      <div class="text-1">MY PROFILE </div>
+      
+      <tr></tr>
+      <td colspan="15"> &nbsp; </td>
+      <tr></tr>
+      <div class="table">
+      <table style ="width: 100%;">
+        
+      <th colspan="15">  <i class='bx bxs-user'></i><b>&nbsp; Personal Data</b></th>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Faculty Number</td>
+        <td  id="sn">&nbsp;&nbsp;2018-0001-MN-0</td>
+        <td rowspan="2">Age</td>
+        <td><input type="number" id="age" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Full Name</td>
+        <td  id="name">&nbsp;&nbsp;Lorem ipsum dolor</td>
+        <td rowspan="2">Gender</td>
+        <td><select id="gender" required>
+          <option value="">--Please choose an option--</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="prefer not to say">Prefer not to say</option>
+          </select></td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr></tr>
+      <tr></tr>
+      <td colspan="15">  <i class='bx bxs-building-house'></i>Home Address</td>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Number, Street</td>
+        <td rowspan="2">&nbsp;Barangay</td>
+        <td rowspan="2">District</td>
+        <td rowspan="2">&nbsp;City/Municipality</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><input type="text" id="nands" required></td>
+        <td>&nbsp;&nbsp;<input type="text" id="brgy" required></td>
+        <td><input type="text" id="district"></td>
+        <td>&nbsp;&nbsp;<input type="text" id="city" required></td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">College</td>
+        <td colspan="7">
+          <select id="college" required>
+              <option value="">--Please choose an option--</option>
+              <option value="caf">College of Accountancy and Finance</option>
+              <option value="cadbe">College of Architecture, Design and the Built Environment</option>
+              <option value="cal">College of Arts and Letters</option>
+              <option value="cba">College of Business Administration </option>
+              <option value="coc">College of Communication</option>
+              <option value="ccis">College of Computer and Information Sciences</option>
+              <option value="coed">College of Education</option>
+              <option value="coe">College of Engineering</option>
+              <option value="chk">College of Human Kinetics</option>
+              <option value="cpspa">College of Political Science and Public Administration</option>
+              <option value="cssd">College of Social Sciences and Development</option>
+              <option value="cs">College of Science</option>
+              <option value="cthtm">College of Tourism, Hospitality and Transportation Management</option>
+              <option value="itech">Institute of Technology</option>
+              </select></td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+     
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Branch </td>
+        <td>
+          <select id="Branch" required>
+            <option value="">--Please choose an option--</option>
+              <!-- Metro Manila -->  
+              <option value="Main">Main</option>
+              <option value="Paranaque">Paranaque</option>
+              <option value="QC">Quezon City</option>
+              <option value="SJ">San Juan</option>
+              <option value="Taguig">Taguig</option>
+
+              <!-- Metro Manila -->  
+              <option value="Bansud">Bansud</option>
+              <option value="Sablayan">Sablayan</option>
+
+              <!-- Central Luzon -->  
+              <option value="Bataan">Bataan</option>
+              <option value="Cabiao">Cabiao</option>
+              <option value="Pulilan">Pulilan</option>
+              <option value="SM">Sta. Maria</option>
+             
+              <!-- Calabarzon -->  
+              <option value="Maragondon">Maragondon</option>
+              <option value="GL">General Luna</option>
+              <option value="Lopez">Lopez</option>
+              <option value="Mulanay">Mulanay</option>
+              <option value="ST">Sto. Tomas</option>
+              <option value="Unisan">Unisan</option>
+
+              <option value="Biñan">Biñan</option>
+              <option value="Calauan">Calauan</option>
+              <option value="SP">San Pedro</option>
+              <option value="SR">Santa Rosa</option>
+              
+              <!-- Bicol Region -->
+              <option value="O-">Ragay</option>
+             
+            </select>
+        </td>
+        <td rowspan="3">&nbsp; Blood Type: </td>
+        <td>
+          <select id="bloodType" required>
+            <option value="">--Please choose an option--</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="O">O</option>
+              <option value="AB">AB</option>
+
+              <option value="A+">A+</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B-">B-</option>
+              <option value="O+">O+</option>
+              <option value="O-">O-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="O-">I don't know</option>
+            </select>
+        </td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Email Address</td>
+        <td><input type="text" id="email" required></td>
+        <td rowspan="2">&nbsp; Cellphone Number</td>
+        <td><input type="number" id="phone" required></td>
+      </tr>
+      <tr></tr>
+      <tr>
+      <td rowspan="2">Civil Status</td>
+      <td><select id="civilStatus" required>
+        <option value="">--Please choose an option--</option>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="separated">Separated</option>
+          <option value="widow">Widow</option>
+        </select></td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr></tr>
+      <td colspan="15"> &nbsp; </td>
+      <tr></tr>
+   
+        <tr></tr>
+        <td colspan="15"> &nbsp; </td>
+        <tr></tr>
+      </table>
+      <input type="submit" value="Edit Profile" onclick="mySub()">
+      </div>
+</body>
+</html>

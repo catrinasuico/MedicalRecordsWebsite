@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CLOUD-BASED ENCRYPTED CARD FOR HEALTH RECORDS</title>
+            <html style="height: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="ss.css">
+             <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+<body>
+  <nav>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="images/logo.png" width="60" height="60">
+        <span class="logo_name">PUP Medical Services</span>
+      </div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="Home.html" class="active">Home</a></li>
+        <li>
+          <a href="SetAppointment.html" class="desktop-item">Appointments</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Appointments</label>
+        </li>
+          <li><a href="MyProfile.html">My Profile</a></li>
+        <li>
+            <a href="log_out">
+                <i class='bx bx-log-out' ></i>
+                <span class="links_name">Log out</span>
+            </a>
+        </li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <div class = "bg">
+    <div class="container-1">
+      <div class="text-1">SET AN APPOINTMENT </div>
+      <tr></tr>
+      <td colspan="15"> &nbsp; </td>
+      <tr></tr>
+      <div class="table">
+      <table style ="width: 60%;">
+      <th colspan="15">  <i class='bx bxs-user'></i><b>&nbsp; Personal Information</b></th>
+      <tr></tr>
+      <td colspan="15"> &nbsp; </td>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">First Name</td>
+        <td rowspan="2">&nbsp; Middle Name</td>
+        <td rowspan="2">Last Name</td>
+        <td rowspan="2">&nbsp; Extension (Jr, III) </td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td><input type="text" id="fname" required> </td>
+        <td>&nbsp;&nbsp;<input type="text" id="mname" required> </td>
+        <td><input type="text" id="lname" required> </td>
+        <td>&nbsp;&nbsp;<input type="text" id="ename"></td>
+      </tr>
+      <tr></tr>
+      <tr><td rowspan="2"></td></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Student Number</td>
+        <td>&nbsp;&nbsp;<input type="text" id="sn" required></td>
+        <td rowspan="2">School Year</td>
+        <td><select id="sy" required>
+          <option value="">--Please choose an option--</option>
+            <option value="19&20">S.Y 2019-2020</option>
+            <option value="20&21">S.Y 2020-2021</option>
+            <option value="21&22">S.Y 2021-2022</option>
+          </select></td>
+      </tr>
+      <tr></tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">Age</td>
+        <td>&nbsp;&nbsp;<input type="number" id="age" required></td>
+        <td rowspan="2">Gender</td>
+        <td><select id="gender" required>
+          <option value="">--Please choose an option--</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="prefer not to say">Prefer not to say</option>
+          </select></td>
+          <tr></tr>
+          <tr>
+            <td rowspan="2">College</td>
+            <td colspan="7">
+              <select id="college" required>
+                  <option value="">--Please choose an option--</option>
+                  <option value="caf">College of Accountancy and Finance</option>
+                  <option value="cadbe">College of Architecture, Design and the Built Environment</option>
+                  <option value="cal">College of Arts and Letters</option>
+                  <option value="cba">College of Business Administration </option>
+                  <option value="coc">College of Communication</option>
+                  <option value="ccis">College of Computer and Information Sciences</option>
+                  <option value="coed">College of Education</option>
+                  <option value="coe">College of Engineering</option>
+                  <option value="chk">College of Human Kinetics</option>
+                  <option value="cpspa">College of Political Science and Public Administration</option>
+                  <option value="cssd">College of Social Sciences and Development</option>
+                  <option value="cs">College of Science</option>
+                  <option value="cthtm">College of Tourism, Hospitality and Transportation Management</option>
+                  <option value="itech">Institute of Technology</option>
+                  </select></td>
+          </tr>
+          <tr></tr>
+          <tr><td rowspan="2"></td></tr>
+          <tr></tr>
+          <tr>
+            <td rowspan="2">Course</td>
+            <td colspan="7">
+              <select id="college" required>
+                <option value="">--Please choose an option--</option>
+
+                <option value="bsa">Bachelor of Science in Accountancy</option>
+                <option value="bsma">Bachelor of Science in Management Accounting</option>
+                <option value="bsbafm">Bachelor of Science in Business Administration Major in Financial Management</option>
+
+                <option value="bsarchi">Bachelor of Science in Architecture</option>
+                <option value="bsid">Bachelor of Science in Interior Design</option>
+                <option value="bsep">Bachelor of Science in Environmental Planning</option>
+
+                <option value="baels">Bachelor of Arts in English Language Studies</option>
+                <option value="baf">Bachelor of Arts in Filipinology</option>
+                <option value="balcs">Bachelor of Arts in Literary and Cultural Studies</option>
+                <option value="bap">Bachelor of Arts in Philosophy</option>
+                <option value="bapa">Bachelor of Performing Arts major in Theater Arts</option>
+
+                <option value="bsbahrm">Bachelor of Science in Business Administration major in Human Resource Management</option>
+                <option value="bsbamm">Bachelor of Science in Business Administration major in Marketing Management</option>
+                <option value="bse">Bachelor of Science in Entrepreneurship</option>
+                <option value="bsoa">Bachelor of Science in Office Administration</option>
+
+                <option value="bapr">Bachelor in Advertising and Public Relations</option>
+                <option value="babr">Bachelor of Arts in Broadcasting</option>
+                <option value="bacr">Bachelor of Arts in Communication Research</option>
+                <option value="baj">Bachelor of Arts in Journalism</option>
+
+                <option value="bscs">Bachelor of Science in Computer Science</option>
+                <option value="bsit">Bachelor of Science in Information Technology</option>
+
+
+                <option value="bed">Bachelor in Elementary Education</option>
+                <option value="blis">Bachelor in Library and Information Science</option>
+                <option value="bbtlehm">Bachelor of Business Technology and Livelihood Education major in Home Economics</option>
+                <option value="bbtleia">Bachelor of Business Technology and Livelihood Education major in Industrial Arts</option>
+                <option value="bbtleict">Bachelor of Business Technology and Livelihood Education major in Information and Communication Technology</option>
+                <option value="bece">Bachelor of Early Childhood Education</option>
+                <option value="bsede">Bachelor of Secondary Education major in English</option>
+                <option value="bsedf">Bachelor of Secondary Education major in Filipino</option>
+                <option value="bsedm">Bachelor of Secondary Education major in Mathematics</option>
+                <option value="bseds">Bachelor of Secondary Education major in Science</option>
+                <option value="bsedss">Bachelor of Secondary Education major in Social Studies</option>
+                <option value="btvefsm">Bachelor of Technical Vocational Education major in Food Service Management</option>
+
+                <option value="bsce">Bachelor of Science in Civil Engineering</option>
+                <option value="bscpe">Bachelor of Science in Computer Engineering</option>
+                <option value="bsee">Bachelor of Science in Electrical Engineering</option>
+                <option value="bsece">Bachelor of Science in Electronics Engineering</option>
+                <option value="bsie">Bachelor of Science in Industrial Engineering</option>
+                <option value="bsme">Bachelor of Science in Mechanical Engineering</option>
+                <option value="bsre">Bachelor of Science in Railway Engineering</option>
+
+                <option value="bspe">Bachelor of Physical Education</option>
+                <option value="bses">Bachelor of Science in Exercises and Sports</option>
+
+                <option value="bpad">Bachelor of Public Administration</option>
+                <option value="bais">Bachelor of Arts in International Studies</option>
+                <option value="bape">Bachelor of Arts in Political Economy</option>
+                <option value="baps">Bachelor of Arts in Political Science</option>
+
+                <option value="bah">Bachelor of Arts in History</option>
+                <option value="bas">Bachelor of Arts in Sociology</option>
+                <option value="bscoop">Bachelor of Science in Cooperatives</option>
+                <option value="bsecon">Bachelor of Science in Economics</option>
+                <option value="bspsych">Bachelor of Science in Psychology</option>
+
+                <option value="bsft">Bachelor of Science Food Technology</option>
+                <option value="bsam">Bachelor of Science in Applied Mathematics</option>
+                <option value="bsbio">Bachelor of Science in Biology</option>
+                <option value="bschem">Bachelor of Science in Chemistry</option>
+                <option value="bsmath">Bachelor of Science in Mathematics</option>
+                <option value="bsnd">Bachelor of Science in Nutrition and Dietetics</option>
+                <option value="bsphysics">Bachelor of Science in Physics</option>
+                <option value="bsstat">Bachelor of Science in Statistics</option>
+
+                <option value="bshm"> Bachelor of Science in Hospitality Management</option>
+                <option value="bstm">Bachelor of Science in Tourism Management</option>
+                <option value="bstrm">Bachelor of Science in Transportation Management</option>
+
+                <option value="dcpet">Diploma in Computer Engineering Technology</option>
+                <option value="deet">Diploma in Electrical Engineering Technology</option>
+                <option value="decet">Diploma in Electronics Communications Engineering Technology</option>
+                <option value="dict">Diploma in Information Communication Technology</option>
+                <option value="dmet">Diploma in Mechanical Engineering Technology</option>
+                <option value="dofmt">Diploma in Office Management Technology</option>
+                <option value="dcet">Diploma in Civil Engineering Technology</option>
+                <option value="dret">Diploma in Railway Engineering Technology</option>
+                </select></td>
+          </tr>
+          <tr></tr>
+          <tr><td rowspan="2"></td></tr>
+          <tr></tr>
+          <tr>
+            <td rowspan="2">Clinic </td>
+            <td>
+              <select id="campus" required>
+                <option value="">--Please choose an option--</option>
+                  <!-- Sattelite Branches -->
+                  <option value="Main">Main</option>
+                  <option value="CEA">College of Engineering and Architecture</option>
+                  <option value="COC">College of Communication</option>
+                  <option value="ITECH">Institute of Technology</option>
+                  <option value="HASMIN">HASMIN</option>
+                </select></td>
+          </tr>
+          <tr></tr>
+          <tr><td rowspan="2"></td></tr>
+          <tr></tr>
+          <tr></tr>
+          <td colspan="15"> &nbsp; </td>
+          <tr></tr>
+          <th colspan="15">  <i class='bx bxs-calendar-edit'></i><b>&nbsp; Appointment Information</b></th>
+          <tr></tr>
+          <td colspan="15"> &nbsp; </td>
+          <tr></tr>
+          <tr>
+            <td rowspan="2">Appointment Date</td>
+            <td><input type="date" name="date_picker" value="2020-01-29" required></td>
+            <td rowspan="2">Appointment Purpose</td>
+            <td><select id="appointmentPurpose" required>
+              <option value="">--Please choose an option--</option>
+                <option value="Physical Check Up">Physical Check Up</option>
+                <option value="Dental Check Up">Dental Check Up</option>
+                <option value="Vaccination">Vaccination</option>
+                <option value="Medicine Acquisition">Medicine Acquisition</option>
+              </select></td>
+          </tr>
+          <tr></tr>
+          <td colspan="15"> &nbsp; </td>
+          <tr>
+            <td rowspan="15">Other Information About the Visit</td>
+            <td><textarea name="paragraph_text" cols="50" rows="10"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="3"  rowspan="3"> </td>
+          </tr>
+
+          <tr></tr>
+          <td colspan="15"> &nbsp; </td>
+          <tr></tr>
+          <tr></tr>
+          <td colspan="15"><i><b>I hereby state to the best of my knowledge, my answers to the above questions are complete and correct.</b></i></td>
+          <tr></tr>
+          <td colspan="15"> &nbsp; </td>
+          <tr></tr>
+        </table>
+        <input type="submit" value="Request Appointment" onclick="mySub()">
+    </body>
+</html>
